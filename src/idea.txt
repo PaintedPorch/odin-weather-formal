@@ -1,0 +1,17 @@
+-Make a formal version of the weather app following the style below. Make
+it responsive.
+-Instead of the separate functions to get all forms of data make a normalized
+getData() async function that gets the forecast for three days. Invoke this 
+a variable and use this dictionary to extract subparts of the data as needed.
+-As a minimum, describe the data for the days and present icons as needed.
+Apart from that a radio button for celsius and fahrenheit is needed.
+
+-As for the functions. The radio button should change the data onChange.
+-The prompt should be cleared .7s after enter is pressed.
+-The API provides the icons for the weather, use these via the data.
+
+-For the mobile layout, place the name up top with the searchBar below,
+place the unit option below the searchBar.
+
+Tip: Using justify-content: start will prevent overflow to the left, and thus
+make scroll a feasible option.
